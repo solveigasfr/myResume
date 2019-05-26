@@ -60,7 +60,7 @@ article h4 {
 }
 
 .front-page {
-    background-color: #14213D;
+    background-color: var(--white);
 }
 
 .page-container {
@@ -82,15 +82,17 @@ article h4 {
 .frame {
     width: 100%;
     max-width: 700px;
-    background-color: var(--white);
+    padding: 45px;
+    background-color: var(--secondary-color);
 }
 
 .frame-inner {
-    padding: 30px;
+    padding: 25px;
+    background-color: var(--white);
 }
 
 .frame-image:not(.frame-image-last) {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .frame-image {
@@ -171,6 +173,6 @@ nav {
    }
 
    .frame-image:nth-child(odd) {
-       margin-right: 30px;
+       margin-right: 25px;
    }
 }
