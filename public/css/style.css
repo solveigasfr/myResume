@@ -45,6 +45,11 @@ article h4 {
     font-weight: 700;
 }
 
+img {
+    height: 500px;
+    object-fit: scale-down;
+  }
+
 .backgroundImage {
     background-image: url(../images/background.jpeg);
     background-repeat: no-repeat;
