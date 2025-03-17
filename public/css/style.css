@@ -5,6 +5,7 @@
     --font: 'Nunito Sans', sans-serif;
     --gutter: 20px;
     --main-color: #f7786b;
+
 }
 
 html, body {
@@ -16,6 +17,7 @@ body {
     background-color: var(--white);
     font-family: var(--font);
     font-size: 18px;
+    color: #333333;
 }
 
 a {
@@ -25,6 +27,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font);
     font-weight: bold;
+    color: var(--secondary-color)
 }
 
 article h2, article h3 {
@@ -61,14 +64,13 @@ img {
 
 .title {
     position: absolute;
-    position: absolute;
     left: 0;
     right: 0;
     margin-top: 100px;
     padding: 0 var(--gutter);
     color: var(--primary-color);
     text-align: center;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .container {
@@ -111,7 +113,7 @@ nav {
 .navigation a {
     color: var(--white);
     text-transform: capitalize;
-    padding: 3px 0;
+    padding: 2px;
     border-bottom: 2px solid transparent;
 }
 
